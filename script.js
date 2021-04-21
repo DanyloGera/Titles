@@ -12,6 +12,9 @@ function scroller() {
 
 }
 
+window.onbeforeunload = function () {
+    window.scrollTo(0,0);
+};
 
 
 // // setup game when the web page loads
