@@ -15,7 +15,10 @@ function scroller() {
 window.onbeforeunload = function () {
     window.scrollTo(0,0);
 };
-
+function disabled1() {
+var btn = document.getElementById('btn');
+btn.setAttribute("disabled", "disabled");
+}
 
 // // setup game when the web page loads
 // window.onload = function () {
