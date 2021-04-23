@@ -1,9 +1,31 @@
-body {
+body{
+background-color: #140a01;
+overflow: hidden;
+}
+.body {
 
 	width: 700px;
 	margin: 30px auto;
-	 overflow: hidden;
-   background-color: #140a01;
+
+
+}
+.btn-next-wrapper {
+  display: flex;
+  justify-content: flex-end;
+position: fixed;
+}
+.img{
+	position: fixed;
+  top: 8%;
+  right: 5%;
+	width: 90px;
+	height: 132px;
+}
+.btn-text{
+	position: fixed;
+	top: 19%;
+  right: 6%;
+	color: #fff;
 }
 h1 {
   font-size: 30px;
