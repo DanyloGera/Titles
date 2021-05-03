@@ -1,7 +1,7 @@
 var position = 0;
 
 function scroller() {
-  if (position != 2400)
+  if (position != 2700)
      {position++;
       scroll(0,position);
       clearTimeout(timer);
